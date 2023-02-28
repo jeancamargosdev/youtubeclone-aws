@@ -4,7 +4,6 @@ import com.programming.techie.youtubeclone.model.VideoStatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 import java.util.Set;
 
 @Data
@@ -18,5 +17,4 @@ public class VideoDto {
     private String videoUrl;
     private VideoStatus videoStatus;
     private String thumbnailUrl;
-
 }

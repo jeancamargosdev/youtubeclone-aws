@@ -24,7 +24,6 @@ public class VideoService {
     }
 
     public VideoDto editVideo(VideoDto videoDto) {
-
         var savedVideo = getVideoById((videoDto.getId()));
 
         savedVideo.setTitle(videoDto.getTitle());
